@@ -9,13 +9,16 @@ import Foundation
 
 enum AuthEndpoint {
     case login(username: String, password: String)
+    case status
 }
 
 extension AuthEndpoint: APIEndpoint {
     var path: String {
         switch self {
         case .login:
-            return "/api/auth/login"
+            return "/auth/login"
+        case .status:
+            return "/api/auth/status"
         }
     }
     
@@ -23,6 +26,8 @@ extension AuthEndpoint: APIEndpoint {
         switch self {
         case .login:
             return .post
+        case .status:
+            return .get
         }
     }
     

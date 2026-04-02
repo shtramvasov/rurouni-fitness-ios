@@ -10,9 +10,33 @@
 		E2D3AB322F7BBB5700A34151 /* rurouni-fitness.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rurouni-fitness.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E2D59D7B2F7D17280005DAA0 /* Exceptions for "rurouni-fitness" folder in "rurouni-fitness" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Utills/Config.swift.example,
+			);
+			target = E2D3AB312F7BBB5700A34151 /* rurouni-fitness */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		E2D59D7C2F7D17280005DAA0 /* Exceptions for "rurouni-fitness" folder in "Compile Sources" phase from "rurouni-fitness" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = E2D3AB2E2F7BBB5700A34151 /* Sources */;
+			membershipExceptions = (
+				Utills/Config.swift.example,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E2D3AB342F7BBB5700A34151 /* rurouni-fitness */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E2D59D7B2F7D17280005DAA0 /* Exceptions for "rurouni-fitness" folder in "rurouni-fitness" target */,
+				E2D59D7C2F7D17280005DAA0 /* Exceptions for "rurouni-fitness" folder in "Compile Sources" phase from "rurouni-fitness" target */,
+			);
 			path = "rurouni-fitness";
 			sourceTree = "<group>";
 		};
